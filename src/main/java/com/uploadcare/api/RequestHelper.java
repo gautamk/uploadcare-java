@@ -30,7 +30,7 @@ public class RequestHelper {
 
     public static final String DATE_FORMAT = "EEE, dd MMM yyyy HH:mm:ss Z";
     public static final TimeZone UTC = TimeZone.getTimeZone("UTC");
-    private static final String EMPTY_MD5 = DigestUtils.md5Hex("");
+    private static final String EMPTY_MD5 = "d41d8cd98f00b204e9800998ecf8427e"; //DigestUtils.md5Hex("");
     private static final String JSON_CONTENT_TYPE = "application/json";
 
     RequestHelper(Client client) {
